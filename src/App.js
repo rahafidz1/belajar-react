@@ -48,7 +48,7 @@ class App extends Component {
                       firstname
                       </label>
                       <input
-                        type="text"
+                        type="passpo"
                         value={this.state.firstname}
                         onChange={this.changeHandler}
                         name="firstname"
@@ -110,7 +110,7 @@ class App extends Component {
                 </div>
                 <div className="card-footer">
                   hobi saya {hobi ? hobi : "..."}<br />
-                  hasil saya {hasil ? hasil : "..."}
+                  ngoding saya {hasil ? hasil : "..."}
 
                 </div>
               </div>
